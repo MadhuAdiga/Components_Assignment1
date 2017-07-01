@@ -28,9 +28,9 @@ export class AppComponent implements OnInit { // Export a class AppComponent
             this.cartoons = this._appServives.getData() //Run OnInit which assigns the variable to the data fetched by the getData function of the AppServices
         
         }
-        updateCartoon(name,address){//Function to update currently selected cartoon
-            this.name=name;
-            this.address=address;
+        updateCartoon(name:string,address:string){//Function to update currently selected cartoon
+            this.name=name;//assign updated value to name
+            this.address=address;//assign updated value to address
 
         }
 

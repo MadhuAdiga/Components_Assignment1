@@ -19,8 +19,8 @@ var AppComponent = (function () {
         this.cartoons = this._appServives.getData(); //Run OnInit which assigns the variable to the data fetched by the getData function of the AppServices
     };
     AppComponent.prototype.updateCartoon = function (name, address) {
-        this.name = name;
-        this.address = address;
+        this.name = name; //assign updated value to name
+        this.address = address; //assign updated value to address
     };
     AppComponent = __decorate([
         // Import AppService 
